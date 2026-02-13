@@ -46,6 +46,3 @@ Reported metrics: **Accuracy, AUC, Precision, Recall, F1 Score, MCC**
 | Naive Bayes (Gaussian)     | Fastest training with decent AUC (0.989), but lower recall (0.857) and overall accuracy (92.10%). Assumption of feature independence slightly limits performance. |
 | Random Forest (Ensemble)   | Best overall performance with highest accuracy (97.37%) and MCC (0.944). Perfect precision (1.000) and strong F1 (0.963). Ensemble averaging reduces variance and improves robustness. |
 | XGBoost (Ensemble)         | Matches Random Forest in accuracy (97.37%) with very high AUC (0.993). Strong precision and F1, with faster training time than RF. Excellent predictive performance. |
-```
-
----
